@@ -1,0 +1,51 @@
+{
+    "Logistic Regression": {
+        "C": 0.2663143339461252,
+        "penalty": "l2",
+        "solver": "liblinear"
+    },
+    "Catboost": {
+        "depth": 6,
+        "iterations": 100,
+        "l2_leaf_reg": 0.5166020921566779,
+        "learning_rate": 0.06300015168920975,
+        "silent": true
+    },
+    "Gradient Boosting": {
+        "learning_rate": 0.1342947577994227,
+        "max_depth": 1,
+        "max_features": 0.05,
+        "min_samples_leaf": 2,
+        "min_samples_split": 21,
+        "subsample": 0.7675031035292716
+    },
+    "Random Forest": {
+        "bootstrap": true,
+        "criterion": "entropy",
+        "max_features": 0.5824630318161573,
+        "min_samples_leaf": 8,
+        "min_samples_split": 20
+    },
+    "KNeighborsClassifier": {
+        "n_neighbors": 42,
+        "p": 1,
+        "weights": "distance"
+    },
+    "LinearSVC": {
+        "C": 16.012760249389725,
+        "dual": true,
+        "loss": "squared_hinge",
+        "penalty": "l2",
+        "tol": 0.047950517411389344
+    },
+    "SGDClassifier": {
+        "alpha": 0.0,
+        "eta0": 0.01,
+        "fit_intercept": true,
+        "l1_ratio": 0.5,
+        "learning_rate": "constant",
+        "loss": "hinge",
+        "penalty": "elasticnet",
+        "power_t": 0.5
+    }
+}
